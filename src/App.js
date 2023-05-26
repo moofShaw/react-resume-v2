@@ -5,14 +5,12 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div>
-        <p>
-          ShawShank Developers.
-        </p>
-        <h1>Big Dogs</h1> 
-        <Navbar /> 
-    </div>
-
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' />
+      </Routes> 
+    </Router>
   );
 }
 
