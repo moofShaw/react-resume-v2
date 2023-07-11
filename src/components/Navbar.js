@@ -1,15 +1,15 @@
 import React from "react";
 import './Navbar.css';
+import { Link } from "react-router-dom";
 
 function Navbar () {
     return (
-        <>
-            <p>
-            ShawShank Developers.
-            </p>
-            <h1>Big Dogs</h1>
-        </>
+        <ul>
+            <li><Link to="/Murph">Murph Shaw</Link></li>
+            <li><Link to="/Stef">Stefan Vucic</Link></li>
+            <li><Link to="/Home">Home</Link></li>
+        </ul>
     );
 }
- 
+  
 export default Navbar;
