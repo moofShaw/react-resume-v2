@@ -9,16 +9,16 @@ import Home from "./Home"
 
 function App() {
   return (
-    <Router>
-      <Navbar /> 
-       <Routes>
-         <Route exact path="/Home" element={<Home/>}/>
-         <Route exact path='/Stef' element={<Stef/>}/>
-         <Route exact path='/Murph' element={<Murph/>}/>
-       </Routes>
-    </Router>
-
-
+    <>
+      <Router>
+        <Navbar /> 
+        <Routes>
+          <Route exact path="/home" element={<Home/>}/>
+          <Route exact path='/stef' element={<Stef/>}/>
+          <Route exact path='/murph' element={<Murph/>}/>
+        </Routes>
+      </Router>
+    </>
   );
 } 
 

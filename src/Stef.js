@@ -3,7 +3,7 @@ import React from "react";
 function Stef() {
     return (
 
-        <div>
+        <div className="stef">
             <h1> The page is for Stef </h1>
         </div>
 
